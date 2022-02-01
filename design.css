@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nova+Round&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.main {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("./bence-balla-schottner-deGn9vSwXIM-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+}
+.header {
+  position: sticky;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  /* border: yellow solid 2px; */
+  display: flex;
+  justify-content: center;
+}
+.cr7 {
+  /* font-family: "Nova Round", cursive; */
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  justify-content: space-evenly;
+  letter-spacing: 0.2cm;
+  text-transform: uppercase;
+  color: white;
+  /* border: yellow solid 2px; */
+}
+.sec {
+  color: white;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: space-around;
+}
+.about {
+  font-family: "Oswald", sans-serif;
+  font-size: calc(10vw);
+}
+
+.centeroverlay {
+  background-color: black;
+  background-image: url("./vienna-reyes-qCrKTET_09o-unsplash\ \(1\).jpg");
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+#pic {
+  position: absolute;
+  top: -3%;
+  height: 93vh;
+}
